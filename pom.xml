@@ -99,13 +99,13 @@
     </repositories>
 
     <dependencies>
-        <dependency>
-            <groupId>cn.superiormc</groupId>
-            <artifactId>ManyouItems</artifactId>
-            <version>1.0.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/lib/ManyouItems-1.0.0.jar</systemPath>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>cn.superiormc</groupId>-->
+<!--            <artifactId>ManyouItems</artifactId>-->
+<!--            <version>1.0.0</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${project.basedir}/lib/ManyouItems-1.0.0.jar</systemPath>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
@@ -226,14 +226,14 @@
             <artifactId>SCore</artifactId>
             <version>5.24.7.8</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/SCore-5.24.7.9.jar</systemPath>
+            <systemPath>${project.basedir}/lib/SCore-5.24.8.6.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.ssomar.score</groupId>
             <artifactId>ExecutableItems</artifactId>
             <version>7.24.7.9</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/ExecutableItems-7.24.7.9.jar</systemPath>
+            <systemPath>${project.basedir}/lib/ExecutableItems_Prem-7.24.8.6.jar</systemPath>
         </dependency>
     </dependencies>
 </project>

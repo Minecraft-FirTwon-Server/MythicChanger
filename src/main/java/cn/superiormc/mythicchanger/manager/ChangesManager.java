@@ -64,6 +64,9 @@ public class ChangesManager {
             registerNewRule(new ReplaceEnchants());
             registerNewRule(new EditLore());
         }
+        // FirTownCloud 自添加
+        Bukkit.getConsoleSender().sendMessage("§x§9§8§F§B§9§8[MythicChanger] §f添加杉云镇自定义修改规则中...");
+        registerNewRule(new AddFirColorChanger());
     }
 
     public void registerNewRule(AbstractChangesRule rule) {
